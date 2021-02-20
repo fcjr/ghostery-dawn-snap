@@ -1,8 +1,0 @@
-language: bash
-dist: xenial
-
-deploy:
-  provider: snap
-  snap: waterfox-snap_*.snap
-  channel: edge
-  skip_cleanup: true
