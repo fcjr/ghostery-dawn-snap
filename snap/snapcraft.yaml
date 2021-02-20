@@ -16,7 +16,8 @@ parts:
     # See 'snapcraft plugins'
     plugin: dump
     # source: https://github.com/MrAlex94/Waterfox/archive/$SNAPCRAFT_PROJECT_VERSION-classic.tar.gz
-    source: https://github.com/ghostery/user-agent-desktop/releases/download/$SNAPCRAFT_PROJECT_VERSION/Ghostery-$SNAPCRAFT_PROJECT_VERSION.en-US.linux-x86_64.tar.bz2
+    # TODO programatic link
+    source: https://github.com/ghostery/user-agent-desktop/releases/download/2021-02-16-3/Ghostery-2021.02.1.en-US.linux-x86_64.tar.bz2
     build-packages:
       - build-essential
       - bash
