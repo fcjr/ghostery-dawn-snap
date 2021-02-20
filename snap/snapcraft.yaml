@@ -13,7 +13,7 @@ architectures:
 
 apps:
   ghostery-dawn-snap:
-    command: ghostery
+    command: Ghostery
     aliases: [ghostery]
 
 parts:
