@@ -2,7 +2,7 @@
 Name=Ghostery Dawn
 Icon=${SNAP}/meta/gui/ghostery-dawn.png
 Actions=NewWindow;NewPrivateWindow;ProfileManager;NewInstance;
-Exec=ghostery %U
+Exec=ghostery-dawn %U
 Type=Application
 Categories=GTK;WebBrowser;
 Comment=Firefox-based browser
@@ -12,16 +12,16 @@ StartupNotify=true
 
 [Desktop Action NewWindow]
 Name=Open a New Window
-Exec=ghostery --new-window %U
+Exec=ghostery-dawn --new-window %U
 
 [Desktop Action NewPrivateWindow]
 Name=Open a Private Window
-Exec=ghostery --private-window %U
+Exec=ghostery-dawn --private-window %U
 
 [Desktop Action ProfileManager]
 Name=Open Profile Manager
-Exec=ghostery --ProfileManager
+Exec=ghostery-dawn --ProfileManager
 
 [Desktop Action NewInstance]
 Name=Open a New Instance
-Exec=ghostery --new-instance
+Exec=ghostery-dawn --new-instance
