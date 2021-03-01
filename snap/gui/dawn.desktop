@@ -2,27 +2,27 @@
 Name=Ghostery Dawn
 Actions=NewWindow;NewPrivateWindow;ProfileManager;NewInstance;
 Comment=Privacy Browser
-Exec=ghostery-dawn %U
+Exec=dawn %U
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=${SNAP}/meta/gui/ghostery-dawn.png
+Icon=${SNAP}/meta/gui/dawn.png
 Categories=GNOME;GTK;Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
 StartupNotify=true
 
 [Desktop Action NewWindow]
 Name=Open a New Window
-Exec=ghostery-dawn --new-window %U
+Exec=dawn --new-window %U
 
 [Desktop Action NewPrivateWindow]
 Name=Open a Private Window
-Exec=ghostery-dawn --private-window %U
+Exec=dawn --private-window %U
 
 [Desktop Action ProfileManager]
 Name=Open Profile Manager
-Exec=ghostery-dawn --ProfileManager
+Exec=dawn --ProfileManager
 
 [Desktop Action NewInstance]
 Name=Open a New Instance
-Exec=ghostery-dawn --new-instance
+Exec=dawn --new-instance

@@ -16,6 +16,8 @@
 
 ## Install
 
-    sudo snap install --edge --devmode ghostery-dawn
+```sh
+sudo snap install --edge --devmode dawn
+```
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
